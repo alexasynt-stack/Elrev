@@ -1,0 +1,22 @@
+:root{
+--bg:#000;--paper:#f8f6f2;--gold-start:#f7d27c;--gold-end:#d4af37;
+--max-width:1100px;}
+*{box-sizing:border-box}
+body{margin:0;background:#000;color:var(--paper);font-family:Inter;}
+.container{max-width:var(--max-width);margin:0 auto;padding:0 20px}
+.site-header{position:sticky;top:0;background:rgba(0,0,0,.5);backdrop-filter:blur(4px)}
+.header-inner{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{height:48px}
+.nav{display:flex;gap:18px}
+.nav a{text-decoration:none;color:var(--paper)}
+.cta{border:1px solid var(--gold-end);padding:6px 14px;border-radius:6px}
+.menu-toggle{display:none;background:none;border:0;color:#fff;font-size:22px}
+.hero{padding:80px 0;text-align:left}
+.hero-title{font-family:'Playfair Display';font-size:64px;background:linear-gradient(45deg,var(--gold-start),var(--gold-end));-webkit-background-clip:text;color:transparent}
+.btn{padding:12px 18px;border-radius:8px;text-decoration:none}
+.primary{background:linear-gradient(90deg,var(--gold-start),var(--gold-end));color:#000}
+.ghost{border:1px solid rgba(255,255,255,.2);color:var(--paper)}
+.features{display:flex;gap:20px;padding:40px 0}
+.feature{flex:1;background:rgba(255,255,255,.05);padding:22px;border-radius:12px}
+.site-footer{padding:28px 0;border-top:1px solid rgba(255,255,255,.1)}
+.footer-inner{display:flex;justify-content:space-between;align-items:center}
